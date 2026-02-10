@@ -193,11 +193,10 @@ section a:hover {
     .three-col {
       grid-template-columns: 1fr;
     }
-}
-
-section dl {
+	section dl {
     grid-template-columns: 1fr;
   }
+}
 
 /**************   Contact Page   *****************/
 .one-col {
