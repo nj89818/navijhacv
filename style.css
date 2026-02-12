@@ -199,9 +199,9 @@ section a:hover {
   }
 }
 
-/**************   Contact Page   *****************/
+/*Contact Page*/
 .one-col {
-  max-width: 700px;
+  max-width: 950px;
   margin: 18px auto;
   padding: 18px;
 
@@ -224,7 +224,8 @@ textarea {
   border-radius: 10px;
    
 }
-/**************   Contact Page (upgrade)   *****************/
+
+
 .one-col h1{
   margin-top: 0;
   color: #2E1065;
@@ -243,7 +244,7 @@ textarea {
   padding: 0;
 }
 
-/* clean up the address line inside the white card */
+
 .one-col .address{
   margin-top: 6px;
   margin-bottom: 16px;
@@ -259,7 +260,7 @@ textarea {
   font-weight: 700;
 }
 
-/* nicer inputs */
+
 .one-col input,
 .one-col textarea{
   background-color: #f8fafc;
@@ -273,7 +274,7 @@ textarea {
   box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.25);
 }
 
-/* cute button */
+
 .one-col button{
   width: 100%;
   padding: 12px 14px;
