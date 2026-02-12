@@ -224,3 +224,69 @@ textarea {
   border-radius: 10px;
    
 }
+/**************   Contact Page (upgrade)   *****************/
+.one-col h1{
+  margin-top: 0;
+  color: #2E1065;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.one-col h2{
+  margin: 18px 0 10px;
+  color: #2f5d8a;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.one-col section{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* clean up the address line inside the white card */
+.one-col .address{
+  margin-top: 6px;
+  margin-bottom: 16px;
+  color: #4b5563;
+}
+
+/* form spacing */
+.one-col form div{
+  margin-bottom: 12px;
+}
+
+.one-col label{
+  font-weight: 700;
+}
+
+/* nicer inputs */
+.one-col input,
+.one-col textarea{
+  background-color: #f8fafc;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.one-col input:focus,
+.one-col textarea:focus{
+  border-color: #A78BFA;
+  box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.25);
+}
+
+/* cute button */
+.one-col button{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #244a6f;
+  background-color: #A78BFA;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+
+.one-col button:hover{
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
